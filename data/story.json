@@ -1,0 +1,52 @@
+[
+  {
+    "id": "start",
+    "text": "Riya wakes up. What will she explore first?",
+    "options": [
+      { "text": "Dive into a mysterious book", "next": "reading" },
+      { "text": "Write a story in her journal", "next": "writing" },
+      { "text": "Try crochet", "next": "crochet" },
+      { "text": "Solve a coding challenge", "next": "coding" }
+    ]
+  },
+  {
+    "id": "reading",
+    "text": "Riya flips the pages of an old notebook. Each word sparks new adventures in her mind. What next?",
+    "options": [
+      { "text": "Sketch the story she imagines", "next": "sketch" },
+      { "text": "Write down her own ending", "next": "writing" }
+    ]
+  },
+  {
+    "id": "writing",
+    "text": "Riya scribbles her thoughts, turning fleeting ideas into a narrative only she can tell. What next?",
+    "options": [
+      { "text": "Read a book for inspiration", "next": "reading" },
+      { "text": "Take a break and crochet", "next": "crochet" }
+    ]
+  },
+  {
+    "id": "crochet",
+    "text": "Riya picks up her crochet thread, weaving colors into shapes. Her mind feels relaxed and creative. What next?",
+    "options": [
+      { "text": "Sketch something inspired by colors", "next": "sketch" },
+      { "text": "Write down her crochet story", "next": "writing" }
+    ]
+  },
+  {
+    "id": "coding",
+    "text": "Riya dives into a challenging coding problem, solving puzzles like a true engineer.",
+    "options": [
+      { "text": "Take a coffee break and write", "next": "writing" },
+      { "text": "Sketch an idea for a project", "next": "sketch" }
+    ]
+  },
+  {
+    "id": "sketch",
+    "text": "Riya sketches her imagination onto paper. Her hobbies and ideas blend into one colorful page.",
+    "options": [
+      { "text": "Read a book to continue learning", "next": "reading" },
+      { "text": "Code a small project inspired by her sketch", "next": "coding" }
+    ]
+  }
+]
