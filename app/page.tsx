@@ -58,6 +58,10 @@ export default function Home() {
           >
             Documentation
           </a>
+          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            Riya Bansal Portfolio
+          </h1>
+
         </div>
       </main>
     </div>
