@@ -11,7 +11,7 @@ export default function StoryPage() {
     <div className="max-w-3xl mx-auto p-10 text-zinc-800">
       <h1 className="text-4xl font-bold mb-8">Riya's Interactive Story</h1>
 
-      <p className="mb-6">{currentNode.text}</p>
+      <p className="mb-6"> {currentNode.text}</p>
 
       <div className="flex flex-col gap-4">
         {currentNode.options.map((option) => (
